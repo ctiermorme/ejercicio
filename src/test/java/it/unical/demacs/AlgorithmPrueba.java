@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 public class AlgorithmPrueba {
     private Algorithms algorithms = new Algorithms();
-
+    //hola
     @ParameterizedTest
     public void IsPalindromeTrueTest(String a){
         Assertions.assertTrue(algorithms.isPalindrome(a));
